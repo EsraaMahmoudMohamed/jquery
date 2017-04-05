@@ -1,0 +1,124 @@
+<html>
+
+<body>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+                <a class="navbar-brand" href="#">mywebsite</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#!/">Home <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <a id="logout" href="index.html">Logout</a>
+
+
+    <h2> Crossover Todo</h2>
+
+    <div class="jumbotron ">
+        <div class="container">
+            <h1 class="glyphicon glyphicon-heart title"> cross over Todo app</h1>
+            <h4>This is an app to create,edit and orgnize your upcoming tasks</h4>
+            <br>
+            <br>
+
+        </div>
+    </div>
+<!-- alert message -->
+    <div class="alertmesg"></div>
+    <br>
+
+
+<!-- addbutton -->
+    <div class="add">
+        <button class=" btn btn-info addit"> add task</button>
+
+    </div>
+
+<!-- div complete and not complete -->
+    <div class="notcomplete" ondragover="dragover(event)" ondrop="notdrop(event)">
+        <div class="alert alert-warning" role="alert">
+            <a href="#" class="alert-link"><strong>Hurry up !</strong> you have to complete all these todo items</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="complete" ondragover="dragover(event)" ondrop="drop(event)">
+
+        <div class="alert alert-success" role="alert">
+            <a href="#" class="alert-link"><strong>Hurry up !</strong>you successfuly completed all these todo items</a>
+        </div>
+    </div>
+
+
+<!-- loginform -->
+    <center>
+        <form>
+            <p> Login form </p>
+            <input type="email" placeholder="email" name="email" id="email" required>
+            <input type="password" placeholder="password " name="pass" id="pass" required>
+            <button class="button1" id="su">submit</button>
+        </form>
+    </center>
+
+<!-- details -->
+    <div class="detailss">
+        <div class="delback"></div>
+    </div>
+
+<!-- addform -->
+    <div class="popUp">
+        <form class="addform">
+            <input type="text" name="title" placeholder="Title">
+            <input type="text" name="description" placeholder="Description">
+            <p>Status</p>
+            <label>Completed</label><input type="checkbox" name="status" value="completed">
+            <label>Not Completed</label><input type="checkbox" name="status" value="notcompleted">
+            <button>add</button>
+        </form>
+
+    </div>
+
+
+<!-- updateform -->
+    <form class="updateform">
+        <input type="text" name="title" placeholder="Title">
+        <input type="text" name="description" placeholder="Description">
+        <p>Status</p>
+        <label>Completed</label><input type="checkbox" name="status" value="completed">
+        <label>Not Completed</label><input type="checkbox" name="status" value="notcompleted">
+        <button>add</button>
+    </form>
+
+
+    <script src="js/todolist.js"></script>
+
+</body>
+
+
+
+</html>

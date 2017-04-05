@@ -1,0 +1,212 @@
+h1{
+	margin-top: 0;
+}
+
+p{
+
+text-align: center;
+
+}
+.updateform{
+	display: none;
+}
+#logout{
+	margin-left: 1000px;
+	font-style: italic;
+	font-size: 30px;
+	color:green;
+	border: 2px solid;
+	border-style:dotted;
+	display: none;
+}
+
+form {
+	padding-top: 10px;
+	padding-bottom: 40px;
+  text-align: center;
+    border: 3px solid #f1f1f1;
+    width:50%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+input[type=email], input[type=password] {
+    width: 50%;
+    padding: 20px 20px 4px 4px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+.container {
+    padding: 16px;
+}
+
+.complete
+{
+
+background-color:  white;
+display: inline-block;
+display: none;
+    padding-bottom: 50px;
+  text-align: center;
+    border: 3px solid #f1f1f1;
+    width:500px;
+		margin-top: 300px;
+
+
+}
+
+.notcomplete
+{
+	display: inline-block;
+	background-color: white;
+	display: none;
+	padding-bottom: 50px;
+	text-align: center;
+	border: 3px solid #f1f1f1;
+	width: 500px;
+	margin-left: 100;
+		margin-top: 300px;
+
+
+}
+
+/*
+.todo{
+
+
+		background-color: rgba(0,0,0,0.6);*/
+		    /*color: #fff;
+		    padding: 30px;
+		    box-sizing: 50px;
+		    border-radius: 10px;
+		    font-size: 15px;
+		    padding: 1px;*/
+
+}*/
+
+
+
+.edit-input {
+    display:none;
+}
+
+.jumbotron {
+
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    margin-bottom: 20px;
+    color: inherit;
+    background-color: LightGray  ;
+
+}
+
+/*#eee*/
+.jumbotron .container {
+   /* max-width: 50%;*/
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+ .body,html{
+
+  background-color: white;
+ }
+
+
+ .comp {
+    background-color: #dff0d8;
+}
+
+.notcomp {
+    background-color: #f2dede;
+}
+
+ .navbar-inverse {
+     background-color: #222;
+     border-color: #080808;
+     margin-bottom: 0;
+ }
+
+ /*LightGreen  */
+
+h2{
+
+	font-size: 12px;
+	font-style: oblique;
+	text-align:justify;
+	margin-left: 150px;
+}
+
+
+h4{
+	margin-right: 300px;
+
+}
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 50px;
+		margin-right: 350px;}
+
+		.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    margin-left: 427px;
+    padding-bottom: 0px;
+    margin-top: 0px;}
+
+
+		.add{
+
+			display: none;
+			    margin-left: 8px;
+		}
+
+
+		.popUp{
+		  display: none;
+		  position: fixed;
+		  top:0px;
+		  left: 0px;
+		  width: 100%;
+		  height: 100%;
+		  background-color: rgba(0,0,0,0.5);
+		  padding-top: 50px;
+		}
+		.detailss{
+			display: none;
+		}
+
+		.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    text-align: center;
+    width: 553px;
+    margin-left: 381px;}
+.delback{
+	display: none;
+}
